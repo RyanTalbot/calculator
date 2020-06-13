@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-body {
+  background-color: aquamarine;
+  width: 400px;
+  height: 600px;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.calc-heading {
+  background-color: thistle;
+  grid-row: 1 / 2;
+  grid-column: 1 / 5;
+}
+
+.calc-display {
+  background-color: burlywood;
+  grid-row: 2 / 3;
+  grid-column: 1 / 5;
+}
+
+.calc-buttons {
+  background-color: chocolate;
+  grid-row: 3 / 7;
+  grid-column: 1 / 5;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.num-1 {
+  grid-row: 4 / 5;
+  grid-column: 1 / 2;
+}
+
+.num-2 {
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+}
+
+.num-3 {
+  grid-row: 4 / 5;
+  grid-column: 3 / 4;
+}
+
+.num-4 {
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+}
+
+.num-5 {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+}
+
+.num-6 {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+}
+
+.num-7 {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+.num-8 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+.num-9 {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+}
+
+.num-0 {
+  grid-row: 5 / 6;
+  grid-column: 1 / 2;
+}
+
+.plus-btn {
+  grid-row: 5 / 6;
+  grid-column: 4 / 5;
+}
+
+.sub-btn {
+  grid-row: 4 / 5;
+  grid-column: 4 / 5;
+}
+
+.multiply-btn {
+  grid-row: 3 / 4;
+  grid-column: 4 / 5;
+}
+
+.divide-btn {
+  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+}
+
+.equals {
+  grid-row: 5 / 6;
+  grid-column: 3 / 4;
+}
+
+.decimal {
+  grid-row: 5 / 6;
+  grid-column: 2 / 3;
+}
+
+.clear {
+  grid-row: 1 / 2;
+  grid-column: 1 / 5;
+}
