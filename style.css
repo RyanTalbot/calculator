@@ -72,12 +72,12 @@ button {
   background-color: #c7fafa;
 }
 
-.number {
+.numbers {
   background-color: #333333;
   color: white;
 }
 
-.number:hover {
+.numbers:hover {
   background-color: #474747;
 }
 
