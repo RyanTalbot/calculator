@@ -8,28 +8,29 @@
   </head>
   <body>
     <div class="container">
+      <textarea class="display" cols="30" rows="10"></textarea>
       <div class="calc-body">
-        <div class="calc-heading">Odin's Calculator</div>
-        <div class="calc-display">1234</div>
-        <div class="calc-buttons">
-          <button class="num-1" type="button">1</button>
-          <button class="num-2" type="button">2</button>
-          <button class="num-3" type="button">3</button>
-          <button class="num-4" type="button">4</button>
-          <button class="num-5" type="button">5</button>
-          <button class="num-6" type="button">6</button>
-          <button class="num-7" type="button">7</button>
-          <button class="num-8" type="button">8</button>
-          <button class="num-9" type="button">9</button>
-          <button class="num-0" type="button">0</button>
-          <button class="plus-btn" type="button">+</button>
-          <button class="sub-btn" type="button">-</button>
-          <button class="multiply-btn" type="button">*</button>
-          <button class="divide-btn" type="button">/</button>
-          <button class="equals" type="button">=</button>
-          <button class="decimal" type="button">.</button>
-          <button class="clear" type="button">AC</button>
-        </div>
+        <div class="func-buttons" id="clear-key">Clear</div>
+        <div class="func-buttons" id="delete-key">DEL</div>
+
+        <button class="number" id="one">1</button>
+        <button class="number" id="two">2</button>
+        <button class="number" id="three">3</button>
+        <button class="number" id="four">4</button>
+        <button class="number" id="five">5</button>
+        <button class="number" id="six">6</button>
+        <button class="number" id="seven">7</button>
+        <button class="number" id="eight">8</button>
+        <button class="number" id="nine">9</button>
+        <button class="number" id="zero">0</button>
+        <button class="number" id="decimal">.</button>
+
+        <button class="operator" id="add">+</button>
+        <button class="operator" id="subtract">-</button>
+        <button class="operator" id="multiply">*</button>
+        <button class="operator" id="divide">/</button>
+
+        <button class="answer" id="equals">=</button>
       </div>
     </div>
     <script src="script.js"></script>
